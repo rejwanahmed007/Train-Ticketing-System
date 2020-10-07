@@ -1,0 +1,37 @@
+USE [sampledb]
+GO
+/****** Object:  Table [dbo].[movie]    Script Date: 07/24/2019 1:08:47 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[movie](
+	[id] [varchar](10) NOT NULL,
+	[title] [varchar](80) NULL,
+	[imdbrating] [float] NULL,
+	[income] [int] NULL,
+	[releasedate] [datetime] NULL,
+	[genre] [varchar](20) NULL,
+ CONSTRAINT [PK_movie] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+INSERT [dbo].[movie] ([id], [title], [imdbrating], [income], [releasedate], [genre]) VALUES (N'm001', N'the godfather', 9.8, 365, CAST(0x000069DA00000000 AS DateTime), N'drama')
+INSERT [dbo].[movie] ([id], [title], [imdbrating], [income], [releasedate], [genre]) VALUES (N'm002', N'the avengers', 8.9, 1500, CAST(0x0000A02F00000000 AS DateTime), N'action')
+INSERT [dbo].[movie] ([id], [title], [imdbrating], [income], [releasedate], [genre]) VALUES (N'm003', N'aquaman', 8.1, 700, CAST(0x0000AA2200000000 AS DateTime), N'action')
+INSERT [dbo].[movie] ([id], [title], [imdbrating], [income], [releasedate], [genre]) VALUES (N'm004', N'avatar the movie', 9.6, 2200, CAST(0x00009DEB00000000 AS DateTime), N'adventure')
+INSERT [dbo].[movie] ([id], [title], [imdbrating], [income], [releasedate], [genre]) VALUES (N'm005', N'spiderman', 8.2, 390, CAST(0x00009A6600000000 AS DateTime), N'action')
+INSERT [dbo].[movie] ([id], [title], [imdbrating], [income], [releasedate], [genre]) VALUES (N'm006', N'deadpool', 7.4, 879, CAST(0x0000A8CA00000000 AS DateTime), N'comedy')
+INSERT [dbo].[movie] ([id], [title], [imdbrating], [income], [releasedate], [genre]) VALUES (N'm007', N'scarface', 9.1, 234, CAST(0x0000759F00000000 AS DateTime), N'thriller')
+INSERT [dbo].[movie] ([id], [title], [imdbrating], [income], [releasedate], [genre]) VALUES (N'm008', N'the hobbits', 7.6, 567, CAST(0x0000A7CA00000000 AS DateTime), N'adventure')
+INSERT [dbo].[movie] ([id], [title], [imdbrating], [income], [releasedate], [genre]) VALUES (N'm009', N'oceans eleven', 9.6, 300, CAST(0x0000AA2400000000 AS DateTime), N'comedy')
+INSERT [dbo].[movie] ([id], [title], [imdbrating], [income], [releasedate], [genre]) VALUES (N'm010', N'get smart', 8.8, 340, CAST(0x00009D1100000000 AS DateTime), N'comedy')
+INSERT [dbo].[movie] ([id], [title], [imdbrating], [income], [releasedate], [genre]) VALUES (N'm011', N'outlander', 6.1, 85, CAST(0x00008FB600000000 AS DateTime), N'drama')
+INSERT [dbo].[movie] ([id], [title], [imdbrating], [income], [releasedate], [genre]) VALUES (N'm012', N'thor', 7.3, 390, CAST(0x0000AA2100000000 AS DateTime), N'action')

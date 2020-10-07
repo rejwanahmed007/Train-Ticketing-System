@@ -1,0 +1,27 @@
+<employees>
+	<employee>
+		<employee_id>1</employee_id>
+		<name>Rejwan Ahmed</name>
+		<email>rejwan.ahmed@live.com</email>
+		<password>rejwan</password>
+		<mobile>01711085769</mobile>
+		<address>Banani,Dhaka</address>
+		<designation>Admin</designation>
+		<salary>30000</salary>
+		<commission>5%</commission>
+		<hiredate>01/10/2019</hiredate>
+	</employee>
+	<employee>
+		<employee_id>2</employee_id>
+		<name>Tanvir Azad</name>
+		<email>tanvir@live.com</email>
+		<password>tanvir</password>
+		<mobile>01711085761</mobile>
+		<address>Tejgaon,Dhaka</address>
+		<designation>Customer Manager</designation>
+		<salary>30000</salary>
+		<commission>5%</commission>
+		<hiredate>01/10/2019</hiredate>
+	</employee>
+
+</employees>

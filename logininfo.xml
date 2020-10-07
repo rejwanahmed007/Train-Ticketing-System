@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<user>
+		<user_type>Passenger</user_type>
+		<email>manwar@live.com</email>
+		<password>manwar</password>
+	</user>
+	<user>
+		<user_type>CM</user_type>
+		<email>tanvir@live.com</email>
+		<password>tanvir</password>
+	</user>
+	<user>
+		<user_type>Admin</user_type>
+		<email>rejwan.ahmed@live.com</email>
+		<password>rejwan</password>
+	</user>
+</users>
+
